@@ -38,3 +38,17 @@
     width: 50px;
     margin: 20px 0px 0px 0px;
 }
+
+/* change header background to red when pixel width is less than 600px. god said he made everyone beautiful then who the made u */
+@media screen and (max-width: 600px) {
+  .header{
+    background-color:darkorchid;
+  }
+  .bio {
+  font-size: 2em;
+  }
+}
+
+html{
+  font-size: 16px;
+}
